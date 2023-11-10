@@ -2,9 +2,9 @@
 
 namespace Supermundano\Sage\TheEventsCalendar;
 
-use Roots\Acorn\ServiceProvider;
+use Roots\Acorn\Sage\SageServiceProvider;
 
-class TheEventsCalendarServiceProvider extends ServiceProvider
+class TheEventsCalendarServiceProvider extends SageServiceProvider
 {
     /**
      * Register any application services.
